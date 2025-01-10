@@ -1,6 +1,6 @@
 ## Localize-and-Stitch: Efficient Model Merging via Sparse Task Arithmetic
 
-This is the official implementation for the algorithm Localize-and-Stitch in the paper ["Localize-and-Stitch: Efficient Model Merging via Sparse Task Arithmetic"](https://arxiv.org/abs/2408.13656).
+This is the official implementation for the algorithm Localize-and-Stitch in the paper ["Localize-and-Stitch: Efficient Model Merging via Sparse Task Arithmetic"](https://arxiv.org/abs/2408.13656) at TMLR.
 
 ![alt text](localize_and_stitch.png "Localize-and-Stitch")
 
@@ -14,13 +14,14 @@ Both the vision and language experiments in the paper can be reproduced in the c
 
 # Citation
 ```
-@misc{he2024localizeandstitchefficientmodelmerging,
-      title={Localize-and-Stitch: Efficient Model Merging via Sparse Task Arithmetic}, 
+@article{
+      he2025localizeandstitch,
+      title={Localize-and-Stitch: Efficient Model Merging via Sparse Task Arithmetic},
       author={Yifei He and Yuzheng Hu and Yong Lin and Tong Zhang and Han Zhao},
-      year={2024},
-      eprint={2408.13656},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2408.13656}, 
+      journal={Transactions on Machine Learning Research},
+      issn={2835-8856},
+      year={2025},
+      url={https://openreview.net/forum?id=9CWU8Oi86d},
+      note={}
 }
 ```
