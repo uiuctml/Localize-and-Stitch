@@ -1,8 +1,11 @@
-## Localize-and-Stitch: Efficient Model Merging via Sparse Task Arithmetic
+# Localize-and-Stitch: Efficient Model Merging via Sparse Task Arithmetic
 
 This is the official implementation for the algorithm Localize-and-Stitch in the paper ["Localize-and-Stitch: Efficient Model Merging via Sparse Task Arithmetic"](https://arxiv.org/abs/2408.13656) at TMLR.
 
-**[Sept 2025 Update]** If you want to perform localization on large models that only fit on multiple GPUs, please refer to our [new implementation](https://github.com/uiuctml/MergeBench/blob/main/merging/merging_methods/localize_and_stitch.py) in MergeBench, which scales up to the size of LLMs, along with scalable implementations of other baseline algorithms.
+# News
+**[Oct 2025]** 🎉🎉🎉 Localize-and-Stitch has been awarded the TMLR J2C Certification (Top 10% TMLR papers)!
+
+**[Sept 2025]** If you want to perform localization on large models that only fit on multiple GPUs, please refer to our [new implementation](https://github.com/uiuctml/MergeBench/blob/main/merging/merging_methods/localize_and_stitch.py) in MergeBench, which scales up to the size of LLMs, along with scalable implementations of other baseline algorithms.
 
 ![alt text](localize_and_stitch.png "Localize-and-Stitch")
 
